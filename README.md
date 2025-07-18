@@ -13,7 +13,7 @@ TyrePro is a sleek, mobile-friendly landing page built to promote premium tyre s
 - Quote Form: Simple contact form for service inquiries (non-functional placeholder)
 
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Technology     | Purpose                        
 
