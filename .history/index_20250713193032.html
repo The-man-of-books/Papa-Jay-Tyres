@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAPA JAY TYRES | Tyre Experts in Johannesburg</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Enhanced Header -->
+<header 
+  class="bg-blue-800 text-white py-4 shadow-md fixed w-full top-0 left-0 z-50 transition-shadow duration-300"
+  id="header"
+>
+  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+
+    <!-- Logo -->
+    <a href="#" class="flex items-center space-x-3">
+      <img src="https://via.placeholder.com/40x40?text=Logo" alt="Papa Jay Tyres Logo" class="w-10 h-10 object-contain" />
+      <span class="text-2xl font-extrabold tracking-wide"></span>
+    </a>
+
+    <!-- Navigation (desktop) -->
+    <nav class="hidden md:flex space-x-8 text-white font-medium">
+      <a href="#hero" class="hover:text-yellow-400 transition">Home</a>
+      <a href="#services" class="hover:text-yellow-400 transition">Services</a>
+      <a href="#booking" class="hover:text-yellow-400 transition">Book Now</a>
+      <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+    </nav>
+
+    <!-- Call Button -->
+    <a 
+      href="tel:+27612345678" 
+      class="bg-white text-blue-800 px-5 py-2 rounded-md font-semibold shadow-md hover:bg-yellow-400 hover:text-white transition"
+    >
+      Call Us
+    </a>
+
+    <!-- Mobile Hamburger Menu (basic structure for extension) -->
+    <button 
+      class="md:hidden ml-4 focus:outline-none" 
+      aria-label="Open menu"
+      id="mobile-menu-button"
+    >
+      <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+        <line x1="3" y1="7" x2="21" y2="7" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="17" x2="21" y2="17" />
+      </svg>
+    </button>
+
+  </div>
+</header>
+
+<!-- Add padding-top to body content so fixed header doesn't cover it -->
+<style>
+  body {
+    padding-top: 64px; /* approx header height */
+  }
+</style>
+
+
+  <!-- Image Banner -->
+<section class="w-full">
+  <img
+    src="img/3.jpg"
+    alt="Promotional Banner"
+    class="w-full object-cover"
+  />
+</section>
+
+
+  <!-- Hero -->
+  <section class="bg-blue-50 py-20 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-blue-800 mb-4">Reliable Tyre Services You Can Trust</h2>
+      <p class="text-lg text-gray-700 mb-6">From fitment to repairs, PAPA JAY TYRES has you covered in Johannesburg and beyond.</p>
+      <a href="#booking" class="bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Book a Service</a>
+    </div>
+  </section>
+
+<!-- Our Services Banner -->
+<section class="bg-[url('https://via.placeholder.com/1600x400?text=Tyre+Services+Banner')] bg-cover bg-center py-20">
+  <div class="bg-blue-800 bg-opacity-80 py-16 px-6 text-center text-white rounded">
+    <h2 class="text-4xl font-bold mb-4">Our Tyre Services</h2>
+    <p class="text-lg max-w-3xl mx-auto">We offer a wide range of tyre and vehicle-related services to keep you safe, efficient, and on the road. Whether it's a puncture repair or fleet management — we’ve got you covered.</p>
+  </div>
+</section>
+
+<!-- Full Tyre Services Grid -->
+<section class="bg-white py-16" id="services">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Service Cards -->
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Tyre Fitting</h3>
+        <p class="text-gray-600 mt-2">Professional tyre installation for all vehicle types.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Wheel Alignment</h3>
+        <p class="text-gray-600 mt-2">Precise alignment for optimal handling and safety.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Tyre Repairs</h3>
+        <p class="text-gray-600 mt-2">Quick and durable tyre repair solutions.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Puncture Repairs</h3>
+        <p class="text-gray-600 mt-2">Fast puncture fixes to get you back on the road.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Wheel Balancing</h3>
+        <p class="text-gray-600 mt-2">Smoother rides with precision balancing.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Battery Testing</h3>
+        <p class="text-gray-600 mt-2">On-site battery health check & replacement.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Suspension Checks</h3>
+        <p class="text-gray-600 mt-2">Complete suspension system inspections.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Brake Pad Replacement</h3>
+        <p class="text-gray-600 mt-2">Safe, efficient brake service & pad swaps.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Nitrogen Inflation</h3>
+        <p class="text-gray-600 mt-2">Longer tyre life with nitrogen air fills.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">4x4 & SUV Specialists</h3>
+        <p class="text-gray-600 mt-2">Tyres & fitment tailored for off-road vehicles.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Fleet Tyre Management</h3>
+        <p class="text-gray-600 mt-2">Tyre solutions for delivery vans, trucks, & fleets.</p>
+      </div>
+
+      <div class="border rounded-xl p-6 shadow hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-blue-700">Free Tyre Safety Checks</h3>
+        <p class="text-gray-600 mt-2">Stop by for a quick tyre health inspection.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Service Gallery -->
+  <section class="bg-gray-50 py-12" id="gallery">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-blue-800 mb-8 text-center">Service Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="https://via.placeholder.com/300x200?text=Tyre+Fitment" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200?text=Alignment" class="rounded shadow">
+        <img src="https://via.placeholder.com/300x200?text=Battery+Check" class="rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="bg-blue-800 text-white py-16" id="booking">
+    <div class="max-w-xl mx-auto px-6">
+      <h2 class="text-2xl font-bold mb-4 text-center">Book a Service</h2>
+      <form action="https://formspree.io/f/your_form_id" method="POST" onsubmit="return redirectAfterSubmit()">
+        <div class="mb-4">
+          <label class="block text-sm mb-1">Full Name</label>
+          <input type="text" name="name" required class="w-full px-4 py-2 rounded text-black" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm mb-1">Phone Number</label>
+          <input type="tel" name="phone" required class="w-full px-4 py-2 rounded text-black" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm mb-1">Service Needed</label>
+          <select name="service" required class="w-full px-4 py-2 rounded text-black">
+            <option value="">Select a service</option>
+            <option>Tyre Fitting</option>
+            <option>Wheel Alignment</option>
+            <option>Battery Test</option>
+            <option>Puncture Repair</option>
+          </select>
+        </div>
+        <button type="submit" class="bg-white text-blue-800 font-semibold px-6 py-2 rounded hover:bg-gray-200 transition">
+          Submit Booking
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    function redirectAfterSubmit() {
+      setTimeout(() => {
+        window.location.href = "thank-you.html";
+      }, 300); // Simulate quick form redirect
+      return true;
+    }
+  </script>
+
+  <!-- Google Maps Embed - Full Width -->
+<section class="py-12" id="location">
+  <h2 class="text-2xl font-bold text-blue-800 mb-6 text-center max-w-7xl mx-auto px-6">
+    Visit Our Workshop
+  </h2>
+  <div class="w-full h-[350px] shadow overflow-hidden">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114798.30202802607!2d28.0111697!3d-26.2041028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9509bc41b9cbd3%3A0x2ed1e8e9e7493a5b!2sJohannesburg!5e0!3m2!1sen!2sza!4v1626509110681"
+      width="100%"
+      height="100%"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      class="block"
+    ></iframe>
+  </div>
+</section>
+
+<section id="contact" class="bg-gray-100 py-16 w-full">
+  <div class="w-full px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-blue-800 mb-12 text-center">Contact Us</h2>
+
+    <div class="max-w-4xl mx-auto">
+    <form
+      id="contact-form"
+      action="https://formspree.io/f/your_form_id"
+      method="POST"
+      enctype="multipart/form-data"
+      novalidate
+      class="bg-white p-10 rounded-xl shadow-lg space-y-8"
+      aria-describedby="form-status"
+    >
+      <!-- Honeypot -->
+      <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <!-- Subject Dropdown -->
+      <div class="relative">
+        <label for="subject" class="block mb-2 font-semibold text-gray-700">
+          Subject
+          <span
+            class="ml-1 text-gray-400 cursor-help"
+            tabindex="0"
+            role="tooltip"
+            aria-label="Select the topic of your inquiry"
+            >&#9432;</span
+          >
+        </label>
+        <select
+          id="subject"
+          name="subject"
+          required
+          aria-required="true"
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+        >
+          <option value="" disabled selected>Select a subject</option>
+          <option value="tyre-fitting">Tyre Fitting</option>
+          <option value="wheel-alignment">Wheel Alignment</option>
+          <option value="repairs">Repairs</option>
+          <option value="general">General Inquiry</option>
+        </select>
+        <p class="mt-1 text-red-600 text-sm hidden" aria-live="assertive" id="subject-error">Please select a subject.</p>
+      </div>
+
+      <!-- Name and Email side-by-side on md+ -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="relative">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+            placeholder=" "
+            aria-required="true"
+            aria-describedby="name-error"
+            class="peer block w-full appearance-none border border-gray-300 rounded-md bg-transparent px-3 pt-6 pb-2 text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600"
+          />
+          <label
+            for="name"
+            class="absolute left-3 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-600 font-semibold"
+            >Full Name</label
+          >
+          <p class="mt-1 text-red-600 text-sm hidden" id="name-error" aria-live="assertive">Please enter your full name.</p>
+        </div>
+
+        <div class="relative">
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            autocomplete="email"
+            required
+            placeholder=" "
+            aria-required="true"
+            aria-describedby="email-error"
+            class="peer block w-full appearance-none border border-gray-300 rounded-md bg-transparent px-3 pt-6 pb-2 text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600"
+          />
+          <label
+            for="email"
+            class="absolute left-3 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-600 font-semibold"
+            >Email Address</label
+          >
+          <p class="mt-1 text-red-600 text-sm hidden" id="email-error" aria-live="assertive">Please enter a valid email address.</p>
+        </div>
+      </div>
+
+      <!-- Phone Number -->
+      <div class="relative">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          autocomplete="tel"
+          placeholder=" "
+          aria-describedby="phone-error"
+          pattern="^\+?[0-9\s\-()]{7,20}$"
+          class="peer block w-full appearance-none border border-gray-300 rounded-md bg-transparent px-3 pt-6 pb-2 text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600"
+        />
+        <label
+          for="phone"
+          class="absolute left-3 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-600 font-semibold"
+          >Phone Number (optional)</label
+        >
+        <p class="mt-1 text-red-600 text-sm hidden" id="phone-error" aria-live="assertive">
+          Please enter a valid phone number.
+        </p>
+      </div>
+
+      <!-- Preferred Contact Method -->
+      <fieldset class="space-y-2" aria-describedby="contact-method-error">
+        <legend class="font-semibold text-gray-700">Preferred Contact Method</legend>
+        <label class="inline-flex items-center mr-6 cursor-pointer">
+          <input type="radio" name="contact_method" value="email" checked class="form-radio text-blue-600" />
+          <span class="ml-2">Email</span>
+        </label>
+        <label class="inline-flex items-center cursor-pointer">
+          <input type="radio" name="contact_method" value="phone" class="form-radio text-blue-600" />
+          <span class="ml-2">Phone</span>
+        </label>
+        <p class="mt-1 text-red-600 text-sm hidden" id="contact-method-error" aria-live="assertive">
+          Please select a contact method.
+        </p>
+      </fieldset>
+
+      <!-- Best Time to Call -->
+      <div class="relative">
+        <label for="best_time" class="block mb-2 font-semibold text-gray-700">Best Time to Call (optional)</label>
+        <input
+          type="time"
+          id="best_time"
+          name="best_time"
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+        />
+      </div>
+
+      <!-- Message with character counter -->
+      <div class="relative">
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          required
+          placeholder=" "
+          aria-required="true"
+          aria-describedby="message-error message-counter"
+          maxlength="500"
+          class="peer block w-full appearance-none border border-gray-300 rounded-md bg-transparent px-3 pt-6 pb-2 text-gray-900 resize-y focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600"
+        ></textarea>
+        <label
+          for="message"
+          class="absolute left-3 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-6 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-blue-600 font-semibold"
+          >Write your message here...</label
+        >
+        <p id="message-counter" class="text-right text-sm text-gray-500 mt-1">0 / 500</p>
+        <p class="mt-1 text-red-600 text-sm hidden" id="message-error" aria-live="assertive">
+          Please enter a message.
+        </p>
+      </div>
+
+      <!-- File Upload -->
+      <div>
+        <label for="attachment" class="block mb-2 font-semibold text-gray-700">
+          Upload Image (optional)
+          <span
+            class="ml-1 text-gray-400 cursor-help"
+            tabindex="0"
+            role="tooltip"
+            aria-label="Upload a photo of damaged tyre or vehicle"
+            >&#9432;</span
+          >
+        </label>
+        <input
+          type="file"
+          id="attachment"
+          name="attachment"
+          accept="image/*"
+          class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+        />
+      </div>
+
+      <!-- reCAPTCHA (v2 invisible) -->
+      <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
+
+      <!-- Status messages -->
+      <div
+        id="form-status"
+        role="alert"
+        class="text-center text-lg font-semibold mt-4"
+        aria-live="polite"
+        aria-atomic="true"
+      ></div>
+
+      <!-- Buttons -->
+      <div class="flex space-x-4">
+        <button
+          type="submit"
+          id="submit-btn"
+          class="flex-1 bg-blue-800 text-white font-semibold rounded-md py-3 shadow-md hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition duration-300 justify-center items-center"
+        >
+          <span id="submit-text">Send Message</span>
+          <svg
+            id="loading-spinner"
+            class="ml-3 hidden animate-spin h-5 w-5 text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="4"
+            ></circle>
+            <path
+              class="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+            ></path>
+          </svg>
+        </button>
+        <button
+          type="reset"
+          class="bg-gray-300 text-gray-700 font-semibold rounded-md py-3 shadow-md hover:bg-gray-400 hover:text-gray-900 transition flex-1"
+        >
+          Clear
+        </button>
+      </div>
+    </form>
+  </div>
+
+<!-- Google reCAPTCHA script (replace YOUR_SITE_KEY) -->
+<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+
+<script>
+  (() => {
+    const form = document.getElementById('contact-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const submitText = document.getElementById('submit-text');
+    const loadingSpinner = document.getElementById('loading-spinner');
+    const statusDiv = document.getElementById('form-status');
+    const messageInput = form.querySelector('#message');
+    const messageCounter = document.getElementById('message-counter');
+
+    // Character counter update
+    messageInput.addEventListener('input', () => {
+      messageCounter.textContent = `${messageInput.value.length} / 500`;
+    });
+
+    // Validation helper
+    function showError(fieldId, message) {
+      const errorEl = document.getElementById(fieldId + '-error');
+      if (errorEl) {
+        errorEl.textContent = message;
+        errorEl.classList.remove('hidden');
+      }
+    }
+    function hideError(fieldId) {
+      const errorEl = document.getElementById(fieldId + '-error');
+      if (errorEl) errorEl.classList.add('hidden');
+    }
+
+    // Basic real-time validation
+    function validateField(field) {
+      const id = field.id;
+      if (id === 'phone' && field.value.trim() !== '') {
+        // phone regex simple check
+        const phonePattern = /^\+?[0-9\s\-()]{7,20}$/;
+        if (!phonePattern.test(field.value.trim())) {
+          showError(id, 'Please enter a valid phone number.');
+          return false;
+        } else {
+          hideError(id);
+          return true;
+        }
+      }
+      if (field.hasAttribute('required') && field.value.trim() === '') {
+        showError(id, `Please enter your ${field.previousElementSibling.textContent.toLowerCase()}.`);
+        return false;
+      }
+      hideError(id);
+      return true;
+    }
+
+    // Validate entire form before submit
+    function validateForm() {
+      let valid = true;
+
+      // Subject dropdown
+      const subject = form.querySelector('#subject');
+      if (!subject.value) {
+        showError('subject', 'Please select a subject.');
+        valid = false;
+      } else {
+        hideError('subject');
+      }
+
+      // Name and email
+      ['name', 'email', 'message'].forEach((fieldId) => {
+        const field = form.querySelector(`#${fieldId}`);
+        if (!validateField(field)) valid = false;
+      });
+
+      // Preferred contact method (radio)
+      const contactMethod = form.querySelector('input[name="contact_method"]:checked');
+      if (!contactMethod) {
+        showError('contact-method', 'Please select a contact method.');
+        valid = false;
+      } else {
+        hideError('contact-method');
+      }
+
+      // Phone validation if filled
+      const phone = form.querySelector('#phone');
+      if (phone.value.trim() !== '' && !validateField(phone)) {
+        valid = false;
+      }
+
+      return valid;
+    }
+
+    // Form submission handler
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      if (!validateForm()) return;
+
+      // Honeypot check
+      if (form.website.value) {
+        // Bot detected
+        return;
+      }
+
+      // Disable submit and show spinner
+      submitBtn.disabled = true;
+      submitText.textContent = 'Sending...';
+      loadingSpinner.classList.remove('hidden');
+      statusDiv.textContent = '';
+
+      // Execute reCAPTCHA v3
+      grecaptcha.ready(() => {
+        grecaptcha
+          .execute('YOUR_SITE_KEY', { action: 'submit' })
+          .then((token) => {
+            document.getElementById('g-recaptcha-response').value = token;
+
+            // Prepare form data
+            const formData = new FormData(form);
+
+            // Submit via fetch to Formspree
+            fetch(form.action, {
+              method: 'POST',
+              body: formData,
+              headers: {
+                Accept: 'application/json',
+              },
+            })
+              .then(async (response) => {
+                if (response.ok) {
+                  // Success
+                  statusDiv.classList.remove('text-red-600');
+                  statusDiv.classList.add('text-green-600');
+                  statusDiv.textContent = 'Thank you! Your message has been sent.';
+                  form.reset();
+                  messageCounter.textContent = '0 / 500';
+                } else {
+                  const data = await response.json();
+                  if (data && data.errors) {
+                    statusDiv.classList.remove('text-green-600');
+                    statusDiv.classList.add('text-red-600');
+                    statusDiv.textContent = data.errors
+                      .map((error) => error.message)
+                      .join(', ');
+                  } else {
+                    throw new Error('Form submission error');
+                  }
+                }
+              })
+              .catch(() => {
+                statusDiv.classList.remove('text-green-600');
+                statusDiv.classList.add('text-red-600');
+                statusDiv.textContent = 'Oops! There was a problem submitting your form.';
+              })
+              .finally(() => {
+                submitBtn.disabled = false;
+                submitText.textContent = 'Send Message';
+                loadingSpinner.classList.add('hidden');
+              });
+          });
+      });
+    });
+  })();
+</script>
+ </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-12 text-center text-sm">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-lg font-semibold text-blue-800 mb-4">PAPA JAY TYRES</h3>
+      <p>123 Main Street, Johannesburg, South Africa</p>
+      <p>Phone/WhatsApp: +27 61 234 5678 | Email: info@papajaytyres.co.za</p>
+      <p>Mon–Fri 8am–5pm | Sat 8am–1pm | Sun Closed</p>
+      <div class="mt-4 flex justify-center gap-4 text-blue-800">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

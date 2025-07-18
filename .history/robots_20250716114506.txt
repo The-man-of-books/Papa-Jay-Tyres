@@ -1,0 +1,6 @@
+# Allow all search engines full access
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://www.papajaytyres.co.za/sitemap.xml
