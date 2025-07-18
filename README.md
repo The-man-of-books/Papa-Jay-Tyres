@@ -23,3 +23,9 @@ TyrePro is a sleek, mobile-friendly landing page built to promote premium tyre s
 
 
 ## Folder Structure
+-History
+-Images
+-ReadMe
+-Index.html
+-robots.txt
+-sitemap.xml
